@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #e0f7fa;
+}
+
+.rocket-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.rocket-heading {
+  margin-top: 20px;
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+}
+
+.launch-button {
+  padding: 15px 30px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 20px 0;
+}
+
+.launch-button:hover {
+  background-color: #218838;
+}
+
+.rocket-image {
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.launch-message {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d32f2f;
+  text-align: center;
+  margin-top: 20px;
+  transition: opacity 0.5s;
+  opacity: 1;
+}
